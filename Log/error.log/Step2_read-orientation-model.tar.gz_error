@@ -1,3 +1,8 @@
+Solution: increase requested MEM to 10 GB, and file will be generated directly
+
+head /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/read-orientation-model.tar.gz
+
+Below is the error log using 5GB MEM
 Using default tag: latest
 latest: Pulling from scao/dailybox
 Digest: sha256:4073b5a77637e7633c4bbe1ec24caddb097d4417016c8099359445d155cb84b0
