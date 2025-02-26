@@ -1,0 +1,399 @@
+Using default tag: latest
+latest: Pulling from scao/dailybox
+Digest: sha256:4073b5a77637e7633c4bbe1ec24caddb097d4417016c8099359445d155cb84b0
+Status: Image is up to date for scao/dailybox:latest
+docker.io/scao/dailybox:latest
+[Wed Feb 26 12:27:19 CST 2025] picard.vcf.GatherVcfs INPUT=[/storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr1-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr2-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr3-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr4-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr5-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr6-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr7-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr8-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr9-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr10-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr11-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr12-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr13-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr14-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr15-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr16-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr17-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr18-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr19-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr20-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr21-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr22-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chrX-unfiltered.vcf, /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chrY-unfiltered.vcf] OUTPUT=/storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/merged-unfiltered.vcf    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=true CREATE_MD5_FILE=false
+[Wed Feb 26 12:27:19 CST 2025] Executing as y.song@compute1-exec-407.ris.wustl.edu on Linux 4.18.0-477.27.1.el8_8.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_121-b13; Picard version: 1.129(b508b2885562a4e932d3a3a60b8ea283b7ec78e2_1424706677) JdkDeflater
+INFO	2025-02-26 12:27:19	GatherVcfs	Checking inputs.
+INFO	2025-02-26 12:27:19	GatherVcfs	Checking file headers and first records to ensure compatibility.
+INFO	2025-02-26 12:27:20	GatherVcfs	Gathering by conventional means.
+INFO	2025-02-26 12:27:20	GatherVcfs	Processed        10,000 records.  Elapsed time: 00:00:00s.  Time for last 10,000:    0s.  Last read position: chr1:234,357,741
+INFO	2025-02-26 12:27:20	GatherVcfs	Processed        20,000 records.  Elapsed time: 00:00:00s.  Time for last 10,000:    0s.  Last read position: chr3:22,492,907
+INFO	2025-02-26 12:27:20	GatherVcfs	Processed        30,000 records.  Elapsed time: 00:00:00s.  Time for last 10,000:    0s.  Last read position: chr4:83,416,594
+INFO	2025-02-26 12:27:21	GatherVcfs	Processed        40,000 records.  Elapsed time: 00:00:00s.  Time for last 10,000:    0s.  Last read position: chr5:157,615,928
+INFO	2025-02-26 12:27:21	GatherVcfs	Processed        50,000 records.  Elapsed time: 00:00:00s.  Time for last 10,000:    0s.  Last read position: chr7:49,359,431
+INFO	2025-02-26 12:27:21	GatherVcfs	Processed        60,000 records.  Elapsed time: 00:00:01s.  Time for last 10,000:    0s.  Last read position: chr9:9,731,718
+INFO	2025-02-26 12:27:21	GatherVcfs	Processed        70,000 records.  Elapsed time: 00:00:01s.  Time for last 10,000:    0s.  Last read position: chr10:116,599,125
+INFO	2025-02-26 12:27:21	GatherVcfs	Processed        80,000 records.  Elapsed time: 00:00:01s.  Time for last 10,000:    0s.  Last read position: chr12:94,226,990
+INFO	2025-02-26 12:27:21	GatherVcfs	Processed        90,000 records.  Elapsed time: 00:00:01s.  Time for last 10,000:    0s.  Last read position: chr15:53,076,506
+INFO	2025-02-26 12:27:21	GatherVcfs	Processed       100,000 records.  Elapsed time: 00:00:01s.  Time for last 10,000:    0s.  Last read position: chr17:65,197,508
+INFO	2025-02-26 12:27:22	GatherVcfs	Processed       110,000 records.  Elapsed time: 00:00:01s.  Time for last 10,000:    0s.  Last read position: chr20:34,782,705
+[Wed Feb 26 13:18:26 CST 2025] picard.vcf.GatherVcfs done. Elapsed time: 51.13 minutes.
+Runtime.totalMemory()=2595749888
+13:18:28.889 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/storage1/fs1/dinglab/Active/Projects/austins2/software/gatk-4.1.2.0/gatk-package-4.1.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 26, 2025 1:18:30 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+13:18:30.585 INFO  MergeMutectStats - ------------------------------------------------------------
+13:18:30.586 INFO  MergeMutectStats - The Genome Analysis Toolkit (GATK) v4.1.2.0
+13:18:30.586 INFO  MergeMutectStats - For support and documentation go to https://software.broadinstitute.org/gatk/
+13:18:30.586 INFO  MergeMutectStats - Executing as y.song@compute1-exec-407.ris.wustl.edu on Linux v4.18.0-477.27.1.el8_8.x86_64 amd64
+13:18:30.586 INFO  MergeMutectStats - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_121-b13
+13:18:30.586 INFO  MergeMutectStats - Start Date/Time: February 26, 2025 1:18:28 PM CST
+13:18:30.586 INFO  MergeMutectStats - ------------------------------------------------------------
+13:18:30.586 INFO  MergeMutectStats - ------------------------------------------------------------
+13:18:30.588 INFO  MergeMutectStats - HTSJDK Version: 2.19.0
+13:18:30.588 INFO  MergeMutectStats - Picard Version: 2.19.0
+13:18:30.588 INFO  MergeMutectStats - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+13:18:30.588 INFO  MergeMutectStats - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+13:18:30.589 INFO  MergeMutectStats - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+13:18:30.589 INFO  MergeMutectStats - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+13:18:30.589 INFO  MergeMutectStats - Deflater: IntelDeflater
+13:18:30.589 INFO  MergeMutectStats - Inflater: IntelInflater
+13:18:30.589 INFO  MergeMutectStats - GCS max retries/reopens: 20
+13:18:30.589 INFO  MergeMutectStats - Requester pays: disabled
+13:18:30.589 INFO  MergeMutectStats - Initializing engine
+13:18:30.589 INFO  MergeMutectStats - Done initializing engine
+13:18:30.803 INFO  MergeMutectStats - Shutting down engine
+[February 26, 2025 1:18:30 PM CST] org.broadinstitute.hellbender.tools.walkers.mutect.MergeMutectStats done. Elapsed time: 0.03 minutes.
+Runtime.totalMemory()=2215116800
+13:18:32.826 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/storage1/fs1/dinglab/Active/Projects/austins2/software/gatk-4.1.2.0/gatk-package-4.1.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 26, 2025 1:18:34 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+13:18:34.521 INFO  LearnReadOrientationModel - ------------------------------------------------------------
+13:18:34.521 INFO  LearnReadOrientationModel - The Genome Analysis Toolkit (GATK) v4.1.2.0
+13:18:34.521 INFO  LearnReadOrientationModel - For support and documentation go to https://software.broadinstitute.org/gatk/
+13:18:34.521 INFO  LearnReadOrientationModel - Executing as y.song@compute1-exec-407.ris.wustl.edu on Linux v4.18.0-477.27.1.el8_8.x86_64 amd64
+13:18:34.522 INFO  LearnReadOrientationModel - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_121-b13
+13:18:34.522 INFO  LearnReadOrientationModel - Start Date/Time: February 26, 2025 1:18:32 PM CST
+13:18:34.522 INFO  LearnReadOrientationModel - ------------------------------------------------------------
+13:18:34.522 INFO  LearnReadOrientationModel - ------------------------------------------------------------
+13:18:34.523 INFO  LearnReadOrientationModel - HTSJDK Version: 2.19.0
+13:18:34.523 INFO  LearnReadOrientationModel - Picard Version: 2.19.0
+13:18:34.523 INFO  LearnReadOrientationModel - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+13:18:34.523 INFO  LearnReadOrientationModel - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+13:18:34.523 INFO  LearnReadOrientationModel - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+13:18:34.523 INFO  LearnReadOrientationModel - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+13:18:34.524 INFO  LearnReadOrientationModel - Deflater: IntelDeflater
+13:18:34.524 INFO  LearnReadOrientationModel - Inflater: IntelInflater
+13:18:34.524 INFO  LearnReadOrientationModel - GCS max retries/reopens: 20
+13:18:34.524 INFO  LearnReadOrientationModel - Requester pays: disabled
+13:18:34.524 INFO  LearnReadOrientationModel - Initializing engine
+13:18:34.524 INFO  LearnReadOrientationModel - Done initializing engine
+13:18:34.536 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr1-f1r2.tar.gz
+13:18:34.567 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.609 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.610 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.616 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr2-f1r2.tar.gz
+13:18:34.679 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.704 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.705 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.709 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr3-f1r2.tar.gz
+13:18:34.728 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.752 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.752 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.757 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr4-f1r2.tar.gz
+13:18:34.778 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.794 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.795 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.800 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr5-f1r2.tar.gz
+13:18:34.828 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.849 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.850 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.855 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr6-f1r2.tar.gz
+13:18:34.883 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.905 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.906 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.911 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr7-f1r2.tar.gz
+13:18:34.931 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.949 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.950 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.956 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr8-f1r2.tar.gz
+13:18:34.977 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:34.988 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:34.989 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:34.994 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr9-f1r2.tar.gz
+13:18:35.014 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.031 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.032 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.038 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr10-f1r2.tar.gz
+13:18:35.052 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.065 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.066 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.071 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr11-f1r2.tar.gz
+13:18:35.089 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.111 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.112 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.119 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr12-f1r2.tar.gz
+13:18:35.144 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.162 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.163 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.169 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr13-f1r2.tar.gz
+13:18:35.186 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.192 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.193 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.199 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr14-f1r2.tar.gz
+13:18:35.214 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.224 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.225 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.230 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr15-f1r2.tar.gz
+13:18:35.242 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.257 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.258 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.264 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr16-f1r2.tar.gz
+13:18:35.277 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.290 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.291 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.295 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr17-f1r2.tar.gz
+13:18:35.317 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.336 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.337 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.341 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr18-f1r2.tar.gz
+13:18:35.351 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.356 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.357 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.361 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr19-f1r2.tar.gz
+13:18:35.377 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.401 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.402 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.406 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr20-f1r2.tar.gz
+13:18:35.420 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.429 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.430 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.436 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr21-f1r2.tar.gz
+13:18:35.449 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.456 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.456 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.462 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr22-f1r2.tar.gz
+13:18:35.483 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.490 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.491 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.496 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chrX-f1r2.tar.gz
+13:18:35.513 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.520 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.520 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:35.525 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chrY-f1r2.tar.gz
+13:18:35.543 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_table
+13:18:35.544 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.ref_histogram
+13:18:35.544 INFO  IOUtils - Extracting file: ./PE0338U1-Fp1D1-FFPE.WXS.T.alt_histogram
+13:18:45.001 INFO  LearnReadOrientationModel - Context AAC: with 7463351 ref and 140582 alt examples, EM converged in 12 steps
+13:18:56.674 INFO  LearnReadOrientationModel - Context AAG: with 10341647 ref and 241836 alt examples, EM converged in 11 steps
+13:19:04.319 INFO  LearnReadOrientationModel - Context AAT: with 11604874 ref and 187278 alt examples, EM converged in 13 steps
+/scratch1/fs1/dinglab/Active/Projects/ysong/CH/tumor_only_for_tumor/logs/tmpsomatic/j2_filter_mutect2_PE0338U1-Fp1D1-FFPE.sh: line 4:   234 Killed                  /storage1/fs1/songcao/Active/Software/jre1.8.0_121/bin/java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -Xmx16g -jar /storage1/fs1/dinglab/Active/Projects/austins2/software/gatk-4.1.2.0/gatk-package-4.1.2.0-local.jar LearnReadOrientationModel -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr1-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr2-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr3-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr4-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr5-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr6-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr7-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr8-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr9-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr10-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr11-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr12-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr13-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr14-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr15-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr16-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr17-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr18-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr19-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr20-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr21-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chr22-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chrX-f1r2.tar.gz -I /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/chrY-f1r2.tar.gz -O /storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/read-orientation-model.tar.gz
+13:19:20.451 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/storage1/fs1/dinglab/Active/Projects/austins2/software/gatk-4.1.2.0/gatk-package-4.1.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 26, 2025 1:19:22 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+13:19:22.146 INFO  GetPileupSummaries - ------------------------------------------------------------
+13:19:22.146 INFO  GetPileupSummaries - The Genome Analysis Toolkit (GATK) v4.1.2.0
+13:19:22.147 INFO  GetPileupSummaries - For support and documentation go to https://software.broadinstitute.org/gatk/
+13:19:22.147 INFO  GetPileupSummaries - Executing as y.song@compute1-exec-407.ris.wustl.edu on Linux v4.18.0-477.27.1.el8_8.x86_64 amd64
+13:19:22.147 INFO  GetPileupSummaries - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_121-b13
+13:19:22.147 INFO  GetPileupSummaries - Start Date/Time: February 26, 2025 1:19:20 PM CST
+13:19:22.147 INFO  GetPileupSummaries - ------------------------------------------------------------
+13:19:22.147 INFO  GetPileupSummaries - ------------------------------------------------------------
+13:19:22.147 INFO  GetPileupSummaries - HTSJDK Version: 2.19.0
+13:19:22.147 INFO  GetPileupSummaries - Picard Version: 2.19.0
+13:19:22.147 INFO  GetPileupSummaries - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+13:19:22.147 INFO  GetPileupSummaries - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+13:19:22.147 INFO  GetPileupSummaries - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+13:19:22.147 INFO  GetPileupSummaries - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+13:19:22.148 INFO  GetPileupSummaries - Deflater: IntelDeflater
+13:19:22.148 INFO  GetPileupSummaries - Inflater: IntelInflater
+13:19:22.148 INFO  GetPileupSummaries - GCS max retries/reopens: 20
+13:19:22.148 INFO  GetPileupSummaries - Requester pays: disabled
+13:19:22.148 WARN  GetPileupSummaries - 
+
+[1m[31m   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+   Warning: GetPileupSummaries is a BETA tool and is not yet ready for use in production
+
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+
+
+13:19:22.148 INFO  GetPileupSummaries - Initializing engine
+13:19:22.622 INFO  FeatureManager - Using codec VCFCodec to read file file:///storage1/fs1/dinglab/Active/Projects/austins2/tools/somaticwrapper_tonly.v1.0/db/gatk/mutect2_gatk-best-practices.broadIns/af-only-gnomad.hg38.common_biallelic.chr1-22XY.vcf
+13:19:22.791 INFO  FeatureManager - Using codec VCFCodec to read file file:///storage1/fs1/dinglab/Active/Projects/austins2/tools/somaticwrapper_tonly.v1.0/db/gatk/mutect2_gatk-best-practices.broadIns/af-only-gnomad.hg38.common_biallelic.chr1-22XY.vcf
+13:19:40.825 INFO  IntervalArgumentCollection - Processing 11233571 bp from intervals
+13:19:41.291 INFO  GetPileupSummaries - Done initializing engine
+13:19:41.292 INFO  ProgressMeter - Starting traversal
+13:19:41.292 INFO  ProgressMeter -        Current Locus  Elapsed Minutes        Loci Processed      Loci/Minute
+13:20:22.897 INFO  ProgressMeter -         chr1:1315766              0.7                  1000           1442.2
+13:20:33.262 INFO  ProgressMeter -        chr1:20119239              0.9                 13000          15008.7
+13:20:43.498 INFO  ProgressMeter -        chr1:43838022              1.0                 24000          23149.3
+13:20:54.060 INFO  ProgressMeter -        chr1:89750885              1.2                 38000          31332.5
+13:21:04.900 INFO  ProgressMeter -       chr1:146118825              1.4                 49000          35164.5
+13:21:16.034 INFO  ProgressMeter -       chr1:157362578              1.6                 56000          35465.1
+13:21:26.295 INFO  ProgressMeter -       chr1:180279486              1.8                 66000          37713.2
+13:21:36.935 INFO  ProgressMeter -       chr1:211207997              1.9                 77000          39950.9
+13:21:47.427 INFO  ProgressMeter -       chr1:241931703              2.1                 89000          42335.9
+13:21:59.604 INFO  ProgressMeter -        chr2:33188458              2.3                103000          44681.6
+13:22:10.074 INFO  ProgressMeter -        chr2:71643654              2.5                116000          46780.2
+13:22:20.089 INFO  ProgressMeter -        chr2:98797069              2.6                125000          47230.1
+13:22:30.664 INFO  ProgressMeter -       chr2:131595662              2.8                135000          47824.0
+13:22:43.917 INFO  ProgressMeter -       chr2:178804500              3.0                149000          48952.8
+13:22:55.259 INFO  ProgressMeter -       chr2:219556673              3.2                162000          50111.9
+13:23:06.129 INFO  ProgressMeter -        chr3:11334606              3.4                176000          51553.2
+13:23:17.777 INFO  ProgressMeter -        chr3:44629125              3.6                188000          52105.2
+13:23:27.915 INFO  ProgressMeter -        chr3:56670274              3.8                193000          51098.1
+13:23:38.986 INFO  ProgressMeter -       chr3:113958134              4.0                208000          52504.5
+13:23:49.548 INFO  ProgressMeter -       chr3:144730809              4.1                220000          53171.1
+13:23:59.703 INFO  ProgressMeter -       chr3:186675287              4.3                234000          54332.1
+13:24:09.769 INFO  ProgressMeter -         chr4:6857032              4.5                246000          54977.0
+13:24:20.523 INFO  ProgressMeter -        chr4:56537837              4.7                261000          56082.6
+13:24:30.545 INFO  ProgressMeter -        chr4:92403701              4.8                273000          56629.0
+13:24:41.048 INFO  ProgressMeter -       chr4:144305181              5.0                288000          57646.9
+13:24:51.567 INFO  ProgressMeter -        chr5:10784523              5.2                307000          59366.9
+13:25:02.213 INFO  ProgressMeter -        chr5:65733392              5.3                324000          60575.7
+13:25:12.658 INFO  ProgressMeter -        chr5:94097657              5.5                333000          60296.2
+13:25:23.760 INFO  ProgressMeter -       chr5:130845410              5.7                345000          60443.6
+13:25:36.283 INFO  ProgressMeter -       chr5:141395626              5.9                349000          58987.6
+13:25:46.300 INFO  ProgressMeter -       chr5:166026354              6.1                358000          58848.0
+13:25:56.614 INFO  ProgressMeter -        chr6:16235021              6.3                372000          59468.9
+13:26:07.006 INFO  ProgressMeter -        chr6:31798087              6.4                382000          59422.3
+13:26:17.593 INFO  ProgressMeter -        chr6:45604098              6.6                392000          59348.8
+13:26:27.916 INFO  ProgressMeter -       chr6:102593956              6.8                408000          60203.0
+13:26:38.114 INFO  ProgressMeter -       chr6:144836012              6.9                422000          60745.5
+13:26:48.487 INFO  ProgressMeter -         chr7:7417600              7.1                438000          61517.6
+13:26:59.265 INFO  ProgressMeter -        chr7:50325817              7.3                454000          62195.9
+13:27:09.521 INFO  ProgressMeter -        chr7:92836376              7.5                469000          62780.5
+13:27:19.808 INFO  ProgressMeter -       chr7:105535330              7.6                476000          62287.9
+13:27:31.626 INFO  ProgressMeter -       chr7:144354842              7.8                489000          62381.2
+13:27:42.245 INFO  ProgressMeter -        chr8:25887629              8.0                507000          63249.4
+13:27:52.564 INFO  ProgressMeter -        chr8:94490326              8.2                524000          63997.1
+13:28:03.164 INFO  ProgressMeter -          chr9:398860              8.4                540000          64558.3
+13:28:13.642 INFO  ProgressMeter -        chr9:36217291              8.5                554000          64877.5
+13:28:23.954 INFO  ProgressMeter -        chr9:87450816              8.7                566000          64975.1
+13:28:34.598 INFO  ProgressMeter -       chr9:112840998              8.9                577000          64929.8
+13:28:45.036 INFO  ProgressMeter -       chr9:133424860              9.1                587000          64773.2
+13:28:55.155 INFO  ProgressMeter -       chr10:27353159              9.2                602000          65214.8
+13:29:05.510 INFO  ProgressMeter -       chr10:69902602              9.4                616000          65506.7
+13:29:15.830 INFO  ProgressMeter -      chr10:102159629              9.6                629000          65687.6
+13:29:26.325 INFO  ProgressMeter -        chr11:2421934              9.8                643000          65945.0
+13:29:36.514 INFO  ProgressMeter -       chr11:29411675              9.9                654000          65925.1
+13:29:47.838 INFO  ProgressMeter -       chr11:63438486             10.1                665000          65782.3
+13:29:58.360 INFO  ProgressMeter -       chr11:80522011             10.3                674000          65535.8
+13:30:08.537 INFO  ProgressMeter -      chr11:117477389             10.5                686000          65620.3
+13:30:18.889 INFO  ProgressMeter -        chr12:7135723             10.6                697000          65590.0
+13:30:29.095 INFO  ProgressMeter -       chr12:43463207             10.8                712000          65946.0
+13:30:39.159 INFO  ProgressMeter -       chr12:64663955             11.0                721000          65759.0
+13:30:49.933 INFO  ProgressMeter -      chr12:111748146             11.1                736000          66044.5
+13:31:00.572 INFO  ProgressMeter -       chr13:32079060             11.3                752000          66423.3
+13:31:10.784 INFO  ProgressMeter -      chr13:101345103             11.5                768000          66831.9
+13:31:21.046 INFO  ProgressMeter -       chr14:34264510             11.7                779000          66794.9
+13:31:31.490 INFO  ProgressMeter -       chr14:75022034             11.8                793000          66995.6
+13:31:41.543 INFO  ProgressMeter -       chr15:27640776             12.0                810000          67476.5
+13:31:51.809 INFO  ProgressMeter -       chr15:43875840             12.2                820000          67349.6
+13:32:02.503 INFO  ProgressMeter -       chr15:70063789             12.4                832000          67349.2
+13:32:12.589 INFO  ProgressMeter -       chr15:89054315             12.5                841000          67163.9
+13:32:22.998 INFO  ProgressMeter -       chr16:12133610             12.7                855000          67348.8
+13:32:33.683 INFO  ProgressMeter -       chr16:30526792             12.9                863000          67038.6
+13:32:43.968 INFO  ProgressMeter -       chr16:72075051             13.0                874000          67000.9
+13:32:54.031 INFO  ProgressMeter -        chr17:6445000             13.2                889000          67285.7
+13:33:04.230 INFO  ProgressMeter -       chr17:29391190             13.4                898000          67103.6
+13:33:14.787 INFO  ProgressMeter -       chr17:45479286             13.6                907000          66896.5
+13:33:25.286 INFO  ProgressMeter -       chr17:73524434             13.7                918000          66845.1
+13:33:35.674 INFO  ProgressMeter -       chr18:23857576             13.9                933000          67091.6
+13:33:45.702 INFO  ProgressMeter -         chr19:968284             14.1                950000          67502.8
+13:33:56.502 INFO  ProgressMeter -       chr19:11163854             14.3                962000          67492.2
+13:34:06.602 INFO  ProgressMeter -       chr19:22064062             14.4                971000          67328.5
+13:34:17.035 INFO  ProgressMeter -       chr19:42764090             14.6                981000          67211.5
+13:34:27.288 INFO  ProgressMeter -       chr19:52721014             14.8                991000          67111.0
+13:34:37.525 INFO  ProgressMeter -        chr20:5456356             14.9               1001000          67013.8
+13:34:48.463 INFO  ProgressMeter -       chr20:46186357             15.1               1014000          67065.6
+13:34:59.438 INFO  ProgressMeter -       chr21:34894928             15.3               1031000          67374.9
+13:35:09.518 INFO  ProgressMeter -       chr22:23927413             15.5               1045000          67548.2
+13:35:19.760 INFO  ProgressMeter -       chr22:50487342             15.6               1060000          67770.1
+13:35:30.698 INFO  ProgressMeter -       chrX:109834172             15.8               1077000          68063.6
+13:35:36.995 INFO  GetPileupSummaries - 49742251 read(s) filtered by: (((((((((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter) AND PrimaryLineReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND NonZeroReferenceLengthAlignmentReadFilter) AND MateOnSameContigOrNoMappedMateReadFilter) AND GoodCigarReadFilter) AND WellformedReadFilter)
+  49742251 read(s) filtered by: ((((((((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter) AND PrimaryLineReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND NonZeroReferenceLengthAlignmentReadFilter) AND MateOnSameContigOrNoMappedMateReadFilter) AND GoodCigarReadFilter)
+      49742251 read(s) filtered by: (((((((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter) AND PrimaryLineReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND NonZeroReferenceLengthAlignmentReadFilter) AND MateOnSameContigOrNoMappedMateReadFilter)
+          49552512 read(s) filtered by: ((((((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter) AND PrimaryLineReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND NonZeroReferenceLengthAlignmentReadFilter)
+              49552512 read(s) filtered by: (((((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter) AND PrimaryLineReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter)
+                  49552512 read(s) filtered by: ((((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter) AND PrimaryLineReadFilter) AND NotDuplicateReadFilter)
+                      6287933 read(s) filtered by: (((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter) AND PrimaryLineReadFilter)
+                          6238483 read(s) filtered by: ((MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter) AND MappedReadFilter)
+                              6238483 read(s) filtered by: (MappingQualityAvailableReadFilter AND MappingQualityNotZeroReadFilter)
+                                  6238483 read(s) filtered by: MappingQualityNotZeroReadFilter 
+                          49450 read(s) filtered by: PrimaryLineReadFilter 
+                      43264579 read(s) filtered by: NotDuplicateReadFilter 
+          189739 read(s) filtered by: MateOnSameContigOrNoMappedMateReadFilter 
+
+13:35:36.995 INFO  ProgressMeter -       chrX:153670877             15.9               1084957          68114.7
+13:35:36.995 INFO  ProgressMeter - Traversal complete. Processed 1084957 total loci in 15.9 minutes.
+13:35:38.671 INFO  GetPileupSummaries - Shutting down engine
+[February 26, 2025 1:35:38 PM CST] org.broadinstitute.hellbender.tools.walkers.contamination.GetPileupSummaries done. Elapsed time: 16.30 minutes.
+Runtime.totalMemory()=6060244992
+13:35:40.520 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/storage1/fs1/dinglab/Active/Projects/austins2/software/gatk-4.1.2.0/gatk-package-4.1.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 26, 2025 1:35:42 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+13:35:42.195 INFO  CalculateContamination - ------------------------------------------------------------
+13:35:42.196 INFO  CalculateContamination - The Genome Analysis Toolkit (GATK) v4.1.2.0
+13:35:42.196 INFO  CalculateContamination - For support and documentation go to https://software.broadinstitute.org/gatk/
+13:35:42.196 INFO  CalculateContamination - Executing as y.song@compute1-exec-407.ris.wustl.edu on Linux v4.18.0-477.27.1.el8_8.x86_64 amd64
+13:35:42.196 INFO  CalculateContamination - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_121-b13
+13:35:42.197 INFO  CalculateContamination - Start Date/Time: February 26, 2025 1:35:40 PM CST
+13:35:42.197 INFO  CalculateContamination - ------------------------------------------------------------
+13:35:42.197 INFO  CalculateContamination - ------------------------------------------------------------
+13:35:42.201 INFO  CalculateContamination - HTSJDK Version: 2.19.0
+13:35:42.201 INFO  CalculateContamination - Picard Version: 2.19.0
+13:35:42.201 INFO  CalculateContamination - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+13:35:42.201 INFO  CalculateContamination - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+13:35:42.201 INFO  CalculateContamination - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+13:35:42.202 INFO  CalculateContamination - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+13:35:42.202 INFO  CalculateContamination - Deflater: IntelDeflater
+13:35:42.202 INFO  CalculateContamination - Inflater: IntelInflater
+13:35:42.202 INFO  CalculateContamination - GCS max retries/reopens: 20
+13:35:42.202 INFO  CalculateContamination - Requester pays: disabled
+13:35:42.202 INFO  CalculateContamination - Initializing engine
+13:35:42.202 INFO  CalculateContamination - Done initializing engine
+13:35:43.706 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:43.891 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:43.898 WARN  KernelSegmenter - Specified dimension of the kernel approximation (100) exceeds the number of data points (58) to segment; using all data points to calculate kernel matrix.
+13:35:43.906 INFO  KernelSegmenter - Found 1 changepoints after applying the changepoint penalty.
+13:35:43.953 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:43.999 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.044 INFO  KernelSegmenter - Found 2 changepoints after applying the changepoint penalty.
+13:35:44.064 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.096 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.140 INFO  KernelSegmenter - Found 2 changepoints after applying the changepoint penalty.
+13:35:44.163 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.201 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.235 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.267 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.324 INFO  KernelSegmenter - Found 1 changepoints after applying the changepoint penalty.
+13:35:44.347 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.388 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.412 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.430 INFO  KernelSegmenter - Found 1 changepoints after applying the changepoint penalty.
+13:35:44.474 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.503 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.532 INFO  KernelSegmenter - Found 1 changepoints after applying the changepoint penalty.
+13:35:44.564 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:35:44.602 INFO  KernelSegmenter - Found 0 changepoints after applying the changepoint penalty.
+13:36:09.993 INFO  CalculateContamination - Shutting down engine
+[February 26, 2025 1:36:09 PM CST] org.broadinstitute.hellbender.tools.walkers.contamination.CalculateContamination done. Elapsed time: 0.49 minutes.
+Runtime.totalMemory()=3224895488
+13:36:11.918 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/storage1/fs1/dinglab/Active/Projects/austins2/software/gatk-4.1.2.0/gatk-package-4.1.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+Feb 26, 2025 1:36:13 PM shaded.cloud_nio.com.google.auth.oauth2.ComputeEngineCredentials runningOnComputeEngine
+INFO: Failed to detect whether we are running on Google Compute Engine.
+13:36:13.592 INFO  FilterMutectCalls - ------------------------------------------------------------
+13:36:13.592 INFO  FilterMutectCalls - The Genome Analysis Toolkit (GATK) v4.1.2.0
+13:36:13.592 INFO  FilterMutectCalls - For support and documentation go to https://software.broadinstitute.org/gatk/
+13:36:13.593 INFO  FilterMutectCalls - Executing as y.song@compute1-exec-407.ris.wustl.edu on Linux v4.18.0-477.27.1.el8_8.x86_64 amd64
+13:36:13.593 INFO  FilterMutectCalls - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_121-b13
+13:36:13.593 INFO  FilterMutectCalls - Start Date/Time: February 26, 2025 1:36:11 PM CST
+13:36:13.593 INFO  FilterMutectCalls - ------------------------------------------------------------
+13:36:13.593 INFO  FilterMutectCalls - ------------------------------------------------------------
+13:36:13.593 INFO  FilterMutectCalls - HTSJDK Version: 2.19.0
+13:36:13.593 INFO  FilterMutectCalls - Picard Version: 2.19.0
+13:36:13.593 INFO  FilterMutectCalls - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+13:36:13.593 INFO  FilterMutectCalls - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+13:36:13.593 INFO  FilterMutectCalls - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+13:36:13.593 INFO  FilterMutectCalls - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+13:36:13.594 INFO  FilterMutectCalls - Deflater: IntelDeflater
+13:36:13.594 INFO  FilterMutectCalls - Inflater: IntelInflater
+13:36:13.594 INFO  FilterMutectCalls - GCS max retries/reopens: 20
+13:36:13.594 INFO  FilterMutectCalls - Requester pays: disabled
+13:36:13.594 INFO  FilterMutectCalls - Initializing engine
+13:36:14.028 INFO  FeatureManager - Using codec VCFCodec to read file file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/merged-unfiltered.vcf
+13:36:14.266 INFO  FilterMutectCalls - Done initializing engine
+13:36:14.370 INFO  IOUtils - Extracting data from archive: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/read-orientation-model.tar.gz
+13:36:14.385 INFO  FilterMutectCalls - Shutting down engine
+[February 26, 2025 1:36:14 PM CST] org.broadinstitute.hellbender.tools.walkers.mutect.filtering.FilterMutectCalls done. Elapsed time: 0.04 minutes.
+Runtime.totalMemory()=2157969408
+***********************************************************************
+
+A USER ERROR has occurred: Could not extract data from: file:///storage1/fs1/dinglab/Active/Projects/ysong/Projects/CH/PECGS_MM/Data/tumor_only/PE0338U1-Fp1D1-FFPE/mutect2/read-orientation-model.tar.gz
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.
